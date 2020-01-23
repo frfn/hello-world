@@ -13,6 +13,8 @@ Post Conflict:
 I'll keep that below for reference.
 The way to remove a conflict is to STAGE them and commit again.
 
+git mergetool: this will help with merging conflicts
+
 <<<<<<< HEAD
 Testing! Conflict!
 =======
