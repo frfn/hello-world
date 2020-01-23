@@ -19,7 +19,7 @@ public class Counter {
 	}
 
 	public static String frequency(String string){
-		if(string.lenght() == 1) return string;
+		if(string.length() == 1) return string;
 		
 		StringBuilder sb = new StringBuilder();
 		int count = 1;
