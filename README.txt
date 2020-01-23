@@ -8,3 +8,5 @@ So far, so good.
 Files in here are nothing but, you guessed it, test files to get a sense of how GIT works and its commands!
 
 This is a modification, will be reflected through GIT STATUS, need to stage (git add <filename>) before committing.
+
+Testing out conflicts in GIT and how to resolve them.
