@@ -9,4 +9,12 @@ Files in here are nothing but, you guessed it, test files to get a sense of how 
 
 This is a modification, will be reflected through GIT STATUS, need to stage (git add <filename>) before committing.
 
+Post Conflict: 
+I'll keep that below for reference.
+The way to remove a conflict is to STAGE them and commit again.
+
+<<<<<<< HEAD
 Testing! Conflict!
+=======
+Testing out conflicts in GIT and how to resolve them.
+>>>>>>> testBranch
