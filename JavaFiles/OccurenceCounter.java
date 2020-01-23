@@ -1,4 +1,6 @@
 /**
+These are VIM commands, shortcuts for EASE of use. :)
+
 Inserting 
 a: add text infront of cursor
 A: add text end of line
