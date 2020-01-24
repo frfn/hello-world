@@ -15,9 +15,9 @@ dd: delete line
 d$: delete all infront of cursor in line
 */
 
-public class Counter {
+public class OccurenceCounter {
 	public static void main(String[] args){
-		System.out.print(frequency("aabbccddeeeegha));
+		System.out.print(frequency("aabbccddeeeegha"));
 	}
 
 	public static String frequency(String string){
@@ -34,7 +34,7 @@ public class Counter {
 					sb.append(string.charAt(i) + Integer.toString(count));
 				}
 				else {
-					sb.append(string.charAt(i);
+					sb.append(string.charAt(i));
 				}
 			}
 		}
