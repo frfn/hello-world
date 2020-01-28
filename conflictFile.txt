@@ -1,5 +1,17 @@
 test 1;
+change made from TESTBRANCH branch;
 change made from MASTER branch;
 
+<<<<<<< HEAD
+This is master branch.
+
+You can use WINMERGE tool or any merge tool!
+This usually happens because you made a commit on the master branch, then also made a commit on another branch ON THE SAME FILE.
+Commit this then go to another branch. 
+=======
+This is test branch.
 
 this here will cause conflict.
+>>>>>>> testBranch
+
+We can see that there was a merge confilt. We can use (git add .) to resolve the issue.
