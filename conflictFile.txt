@@ -3,3 +3,7 @@ change made from TESTBRANCH branch;
 change made from MASTER branch;
 
 You can use WINMERGE tool or any merge tool!
+
+This usually happens because you made a commit on the master branch, then also made a commit on another branch ON THE SAME FILE.
+
+Commit this then go to another branch. 
