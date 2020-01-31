@@ -1,0 +1,18 @@
+git -
+
+init -- initializes a .git folder
+status -- shows if there are unstaged files, directories, modifications, etc.
+add -- adds to the staging area
+commit -m -- committing staged files/dirs/etc.
+commit -am -- shortcut for adding and message if files are already in folder
+remote add origin <location of repo, usually from Github> -- adds a repo to the folder
+push origin master -- pushes stuff from master to the origin (your online repo)
+log -- shows last commits
+log --stats -- shows what has changed
+remote update --> git status -uno -- see if you need to pull anything from origin, see if you need to update
+pull -- downloads and merges stuff from online repo to get you up to date
+checkout <branch name> -- chooses a branch to work on
+branch <name> -- creates a branch of what branch your on
+merge <branch name> -- merges your branch, so go on master branch, then merge
+branch -d <branch name> -- deletes local branch
+push origin --delete <branch name> -- delete branch from origin (online repo)
