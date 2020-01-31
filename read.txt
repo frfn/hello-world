@@ -5,3 +5,10 @@ This is the change.
 Work branch!
 
 Only do --amend WHEN YOU HAVE NOT PUSHED changes into origin. :) thank you.
+
+this is another test. for using git clean -df.
+
+Untracked files are files that are possibly created, moved or copied into your repo.
+Thing is, using clean -df clears all those untracked files and deletes it. :)
+
+modified, is different, that is for staging, then committing.
