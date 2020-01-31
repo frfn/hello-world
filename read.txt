@@ -2,6 +2,8 @@ This is the change.
 This is the change.
 This is the change.
 
+This a test if I can do multiple letters in a GIT command such as -am (add and commit!!) -- will only work on added files only.
+
 Work branch!
 
 Only do --amend WHEN YOU HAVE NOT PUSHED changes into origin. :) thank you.
