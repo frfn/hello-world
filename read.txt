@@ -8,3 +8,5 @@ This is the change.
 ls
 
 Yooo.
+
+Only do --amend WHEN YOU HAVE NOT PUSHED changes into origin. :) thank you.
