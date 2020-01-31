@@ -20,3 +20,6 @@ Testing! Conflict!
 =======
 Testing out conflicts in GIT and how to resolve them.
 >>>>>>> testBranch
+
+
+Testing out --amend !
