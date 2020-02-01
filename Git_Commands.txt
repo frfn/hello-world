@@ -1,10 +1,13 @@
-git -
+git commands gone over -
 
 init -- initializes a .git folder
 status -- shows if there are unstaged files, directories, modifications, etc.
 add -- adds to the staging area
 commit -m -- committing staged files/dirs/etc.
 commit -am -- shortcut for adding and message if files are already in folder
+commit -amend -m -- amends what you've done when you've already commited. Basically undoes, and changes history.
+Note: only do this when you're the only, do not change history. See revert :)
+revert -- revert makes a new commit of the old commit, while working on the current branch.
 remote add origin <location of repo, usually from Github> -- adds a repo to the folder
 push origin master -- pushes stuff from master to the origin (your online repo)
 log -- shows last commits
@@ -16,3 +19,10 @@ branch <name> -- creates a branch of what branch your on
 merge <branch name> -- merges your branch, so go on master branch, then merge
 branch -d <branch name> -- deletes local branch
 push origin --delete <branch name> -- delete branch from origin (online repo)
+clean -df -- cleans all of the untracked files/dirs/etc
+reset --soft, reset --mixed, reset --hard -- using this is dangerous and destructive. consult first.
+reflog -- shows a reference log
+cherrypick <commit hash> -- picks that commit and adds on to branch
+diff -- shows the differences that has been made
+** detached head state ** -- you're not on any MAIN branch. But you can use this to make a backup
+Note: go into the commit, and make a new branch to make that back up
