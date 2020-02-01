@@ -26,3 +26,5 @@ cherrypick <commit hash> -- picks that commit and adds on to branch
 diff -- shows the differences that has been made
 ** detached head state ** -- you're not on any MAIN branch. But you can use this to make a backup
 Note: go into the commit, and make a new branch to make that back up
+branch -d <branch name> -- deletes local branch
+push origin --delete <branch name> -- delete branch from origin (online repo)
