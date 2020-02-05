@@ -36,6 +36,7 @@ public class OccurenceCounter {
 				else {
 					sb.append(string.charAt(i));
 				}
+				count = 1;
 			}
 		}
 
