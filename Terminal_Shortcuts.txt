@@ -1,0 +1,18 @@
+By having shortcuts, in Terminal, it can make moving around quicker.
+
+This does not reflect the shortcuts for the VIM!
+Those are important too. :)
+
+This are for Terminal use!
+
+Ctrl + A : beginning of line
+Ctrl + E : end of line
+Option + Arrow : goes by word 
+Option + Mouse Click : goes into where the pointer us
+Tab : auto complete
+Up and Down Arrow : previous commands
+history -type it in- : shows all history of commands
+!hist_num : runs the command by number
+Ctrl + L : clear the screen
+Cmd + K : clears the screen + scroll back
+
