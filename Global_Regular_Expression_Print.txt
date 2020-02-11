@@ -89,4 +89,9 @@ GREP uses RegEx.
 grep "...-...-...." names.txt
 will search for phone numbers in this case.
 
+-------
 
+Homebrewing a better grep?
+GNU grep 
+
+Research this first before doing :)
