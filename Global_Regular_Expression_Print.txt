@@ -1,0 +1,92 @@
+GREP.
+
+What is GREP?
+
+It's something we'll be using all the time once we become comfortable with it!
+
+Searching for text in a certiain file? Let's look for it!
+
+example names.txt file:
+Flower
+flower
+flowers
+Flowers
+Flow
+Flowing
+Flows
+flowing
+flow
+
+grep "Flower" names.txt
+command : string argument / what we want to search : file
+
+output: 
+Flower
+Flowers
+
+if nothing is found, then print nothing
+
+grep -w "Flower" names.txt
+grep argument: -w ; this stands for whole word
+
+output:
+Flower
+
+-- only the word will be printed and not Flowers
+
+grep -i "Flowers" names.txt
+grep argument: does not care if lowercase or uppercase
+
+grep -n "Flowers" names.txt
+grep arg: finds it by line, will print line number
+
+grep -win -A 3 "Flowers" names.txt: will show three lines after
+grep -win -B 3 "Flowers" names.txt: will show three lines before
+grep -win -C 2 "Flowers" names.txt: will show two lines before and after
+
+A - after
+B - before
+C - context
+
+We can't look with a directory, but with ./*
+grep "Flowers" ./*
+
+* is a wild card
+
+By using the -r , it will be a recursive function and will search all files
+Be careful of -r because it can search lots and lots of fiels and will take forever.
+
+grep -winr "Flowers" ./
+this will work, it will show flowers in all dirs and sub dirs.
+
+These are used for listing the folders/dirs that the file will be in
+-l
+-c
+
+--------
+
+PIPE:
+
+Symbol:  " | "
+
+By piping, we can combine results!
+
+Let's say we have many: 'git commit' commands
+
+By having:
+history | grep "git commit" | grep "java"
+
+it will output all files that will include "java" files in the "git commit" output!
+
+-------
+
+REGULAR EXPRESSION:
+
+Get good at this.
+
+GREP uses RegEx.
+
+grep "...-...-...." names.txt
+will search for phone numbers in this case.
+
+
