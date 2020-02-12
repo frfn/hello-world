@@ -16,4 +16,18 @@ f = file
 Untracked files are files that are possibly created, moved or copied into your repo.
 Thing is, using clean -df clears all those untracked files and deletes it. :)
 
-modified, is different, that is for staging, then committing.
+modified, is different, that is for staging, then committing.
+
+---
+
+Changes will be made here!
+
+1
+2
+3
+4
+5
+6
+7. :)
+
+Diff ? Yes, it will show this.
